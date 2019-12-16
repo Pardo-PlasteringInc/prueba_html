@@ -27,7 +27,7 @@ body {
 body { 
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    background-color: purple;
+    background-color: #323a46;
     color: var(--white);
 }
 p {
@@ -146,5 +146,12 @@ p {
 }
 .informacion {
     display: inline-block;
-
+}
+@media screen and (max-width: 800px){
+    body{
+        background:#ff8000
+    }
+.contenido-header{
+    width: 100%;
+}
 }
